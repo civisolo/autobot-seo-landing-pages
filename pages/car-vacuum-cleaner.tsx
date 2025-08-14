@@ -5,9 +5,9 @@ import Link from 'next/link';
 const CarVacuumCleaner = () => {
   return (
     <Layout
-      title="车载吸尘器 - AutoBot专业车用吸尘器 | 汽车清洁专家"
-      description="AutoBot车载吸尘器，专为汽车清洁设计，强劲吸力，便携设计。清洁座椅缝隙、脚垫灰尘、仪表台，保持爱车整洁如新。"
-      keywords="车载吸尘器,汽车吸尘器,车用清洁,AutoBot,汽车内饰清洁,便携吸尘器,车内除尘"
+      title="Car Vacuum Cleaner - AutoBot Professional Car Vacuum | Powerful Car Cleaning Solution"
+      description="AutoBot car vacuum cleaner with powerful suction up to 20000Pa, specially designed for car cleaning. VX4, VM5 series with wireless design, perfect for car interior cleaning."
+      keywords="car vacuum cleaner,car vacuum,automotive vacuum,AutoBot,car cleaning,wireless vacuum,portable car vacuum"
       canonical="https://autobot-seo.vercel.app/car-vacuum-cleaner"
     >
       {/* Hero Section */}
@@ -16,29 +16,30 @@ const CarVacuumCleaner = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
-                <span className="text-blue-300">车载</span>吸尘器<br />
-                汽车清洁专家
+                <span className="text-yellow-300">Car Vacuum</span><br />
+                Professional Car Cleaning
               </h1>
               <p className="text-xl mb-8 text-gray-200">
-                AutoBot车载吸尘器，专为汽车环境设计，强劲吸力深入每个角落，
-                让您的爱车始终保持整洁如新的状态。
+                AutoBot car vacuum cleaner with powerful 20000Pa suction, 
+                specially designed for car interior cleaning. Wireless design, 
+                multiple attachments, making car cleaning simple and efficient.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="https://autobot.im/products/autobot-vm5-self-cleaner-vacuum-with-air-blower-inflator-pump-car-vacuum" 
+                <a href="https://autobot.im/products/autobot-vx4-new-high-performance-car-vacuum-cleaner" 
                    className="btn-primary text-center">
-                  立即购买 VM5
+                  Buy Car Vacuum
                 </a>
                 <a href="https://autobot.im/collections/handheld-vacuum-cleaner-1" 
                    className="btn-secondary text-center">
-                  查看全系列
+                  View All Models
                 </a>
               </div>
             </div>
             <div className="relative">
-              <img src="/images/autobot-vm5-car.jpg" alt="AutoBot VM5 车载吸尘器" 
+              <img src="/images/autobot-car-vacuum-hero.jpg" alt="AutoBot Car Vacuum Cleaner" 
                    className="w-full h-auto rounded-lg shadow-2xl" />
-              <div className="absolute -bottom-4 -right-4 bg-blue-400 text-white px-4 py-2 rounded-lg font-bold">
-                车载专用
+              <div className="absolute -bottom-4 -right-4 bg-yellow-400 text-black px-4 py-2 rounded-lg font-bold">
+                Car Cleaning Expert
               </div>
             </div>
           </div>
@@ -50,237 +51,77 @@ const CarVacuumCleaner = () => {
         <div className="container-max">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-autobot-primary mb-4">
-              汽车清洁的常见挑战
+              Car Cleaning Challenges & Solutions
             </h2>
             <p className="text-xl text-gray-600">
-              了解问题，找到最佳解决方案
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-red-50 p-6 rounded-xl text-center">
-              <div className="w-16 h-16 bg-red-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"/>
-                  <path fillRule="evenodd" d="M4 5a2 2 0 012-2v1a2 2 0 012 2v6.5a.5.5 0 01-.5.5.5.5 0 01-.5-.5V7a2 2 0 012-2 2 2 0 012 2v.5a.5.5 0 01-.5.5.5.5 0 01-.5-.5V7a2 2 0 012-2h3a2 2 0 012 2v8a2 2 0 01-2 2H6a2 2 0 01-2-2V5z" clipRule="evenodd"/>
-                </svg>
-              </div>
-              <h3 className="text-lg font-bold text-red-700 mb-3">座椅缝隙难清理</h3>
-              <p className="text-gray-600 text-sm">
-                食物碎屑、硬币、纸屑等小物件
-                容易掉入座椅缝隙，难以清理。
-              </p>
-            </div>
-
-            <div className="bg-orange-50 p-6 rounded-xl text-center">
-              <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4z"/>
-                </svg>
-              </div>
-              <h3 className="text-lg font-bold text-orange-700 mb-3">脚垫灰尘积累</h3>
-              <p className="text-gray-600 text-sm">
-                泥土、沙粒、落叶等污物
-                在脚垫上积累，影响车内环境。
-              </p>
-            </div>
-
-            <div className="bg-yellow-50 p-6 rounded-xl text-center">
-              <div className="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4z"/>
-                </svg>
-              </div>
-              <h3 className="text-lg font-bold text-yellow-700 mb-3">仪表台除尘困难</h3>
-              <p className="text-gray-600 text-sm">
-                仪表台表面和缝隙容易积尘，
-                传统清洁方式难以彻底清理。
-              </p>
-            </div>
-
-            <div className="bg-green-50 p-6 rounded-xl text-center">
-              <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0z"/>
-                </svg>
-              </div>
-              <h3 className="text-lg font-bold text-green-700 mb-3">空调出风口清洁</h3>
-              <p className="text-gray-600 text-sm">
-                空调出风口叶片间的灰尘
-                影响空气质量和制冷效果。
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Solutions */}
-      <section className="bg-gray-50 section-padding">
-        <div className="container-max">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-autobot-primary mb-4">
-              AutoBot车载吸尘器解决方案
-            </h2>
-            <p className="text-xl text-gray-600">
-              专业设计，针对性解决汽车清洁难题
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <div className="space-y-8">
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-autobot-accent rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-white font-bold">1</span>
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-autobot-primary mb-2">强劲吸力深入缝隙</h3>
-                    <p className="text-gray-600">
-                      100000rpm高速电机提供强劲吸力，配合专用缝隙吸头，
-                      轻松清理座椅缝隙中的各种杂物和灰尘。
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-autobot-accent rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-white font-bold">2</span>
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-autobot-primary mb-2">多样化吸头配置</h3>
-                    <p className="text-gray-600">
-                      配备刷头、缝隙头、宽口吸头等多种专用配件，
-                      针对不同清洁场景，提供最佳清洁效果。
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-autobot-accent rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-white font-bold">3</span>
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-autobot-primary mb-2">便携设计易操作</h3>
-                    <p className="text-gray-600">
-                      轻巧便携的手持设计，单手即可操作，
-                      灵活清洁车内各个角落，不留死角。
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-autobot-accent rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-white font-bold">4</span>
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-autobot-primary mb-2">车载电源适配</h3>
-                    <p className="text-gray-600">
-                      支持12V车载电源供电，也可使用内置电池，
-                      随时随地进行车内清洁，不受电源限制。
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="relative">
-              <img src="/images/car-cleaning-solution.jpg" alt="汽车清洁解决方案" 
-                   className="w-full h-auto rounded-lg shadow-xl" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Car Cleaning Guide */}
-      <section className="section-padding">
-        <div className="container-max">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-autobot-primary mb-4">
-              汽车清洁完整指南
-            </h2>
-            <p className="text-xl text-gray-600">
-              专业清洁流程，让爱车焕然一新
+              Professional solutions for common car cleaning problems
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div className="bg-white p-8 rounded-xl shadow-lg">
-              <h3 className="text-2xl font-bold text-autobot-primary mb-6">内饰清洁步骤</h3>
+            <div>
+              <h3 className="text-2xl font-bold text-red-600 mb-6">Common Car Cleaning Problems</h3>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
-                  <div className="w-6 h-6 bg-blue-500 rounded-full flex-shrink-0 mt-1"></div>
+                  <div className="w-6 h-6 bg-red-500 rounded-full flex-shrink-0 mt-1"></div>
                   <div>
-                    <h4 className="font-bold text-gray-800">第一步：准备工作</h4>
-                    <p className="text-gray-600">移除车内个人物品，调整座椅位置，为清洁做好准备</p>
+                    <h4 className="font-bold text-gray-800">Seat Crevice Dust</h4>
+                    <p className="text-gray-600">Hard to reach areas between seats collect dust and debris</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-6 h-6 bg-blue-500 rounded-full flex-shrink-0 mt-1"></div>
+                  <div className="w-6 h-6 bg-red-500 rounded-full flex-shrink-0 mt-1"></div>
                   <div>
-                    <h4 className="font-bold text-gray-800">第二步：座椅清洁</h4>
-                    <p className="text-gray-600">使用缝隙吸头清理座椅缝隙，刷头清洁座椅表面</p>
+                    <h4 className="font-bold text-gray-800">Floor Mat Dirt</h4>
+                    <p className="text-gray-600">Stubborn dirt and sand embedded in car floor mats</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-6 h-6 bg-blue-500 rounded-full flex-shrink-0 mt-1"></div>
+                  <div className="w-6 h-6 bg-red-500 rounded-full flex-shrink-0 mt-1"></div>
                   <div>
-                    <h4 className="font-bold text-gray-800">第三步：脚垫除尘</h4>
-                    <p className="text-gray-600">取出脚垫，使用宽口吸头彻底清洁泥土和沙粒</p>
+                    <h4 className="font-bold text-gray-800">Dashboard Dust</h4>
+                    <p className="text-gray-600">Fine dust accumulation on dashboard and air vents</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-6 h-6 bg-blue-500 rounded-full flex-shrink-0 mt-1"></div>
+                  <div className="w-6 h-6 bg-red-500 rounded-full flex-shrink-0 mt-1"></div>
                   <div>
-                    <h4 className="font-bold text-gray-800">第四步：仪表台清洁</h4>
-                    <p className="text-gray-600">使用专用刷头清洁仪表台表面和各种按钮缝隙</p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="w-6 h-6 bg-blue-500 rounded-full flex-shrink-0 mt-1"></div>
-                  <div>
-                    <h4 className="font-bold text-gray-800">第五步：空调出风口</h4>
-                    <p className="text-gray-600">使用细刷头清洁空调出风口叶片间的积尘</p>
+                    <h4 className="font-bold text-gray-800">Pet Hair & Crumbs</h4>
+                    <p className="text-gray-600">Pet hair and food crumbs stuck in upholstery</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="bg-white p-8 rounded-xl shadow-lg">
-              <h3 className="text-2xl font-bold text-autobot-primary mb-6">清洁技巧与注意事项</h3>
+            <div>
+              <h3 className="text-2xl font-bold text-green-600 mb-6">AutoBot Solutions</h3>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <div className="w-6 h-6 bg-green-500 rounded-full flex-shrink-0 mt-1"></div>
                   <div>
-                    <h4 className="font-bold text-gray-800">选择合适的吸头</h4>
-                    <p className="text-gray-600">根据清洁部位选择对应的吸头，提高清洁效率</p>
+                    <h4 className="font-bold text-gray-800">Crevice Tool Attachment</h4>
+                    <p className="text-gray-600">Specialized narrow nozzle reaches deep into seat crevices</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-6 h-6 bg-green-500 rounded-full flex-shrink-0 mt-1"></div>
                   <div>
-                    <h4 className="font-bold text-gray-800">控制吸力大小</h4>
-                    <p className="text-gray-600">清洁精细部件时适当降低吸力，避免损坏</p>
+                    <h4 className="font-bold text-gray-800">Brush Attachment</h4>
+                    <p className="text-gray-600">Rotating brush loosens and removes embedded dirt</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-6 h-6 bg-green-500 rounded-full flex-shrink-0 mt-1"></div>
                   <div>
-                    <h4 className="font-bold text-gray-800">定期清洁滤网</h4>
-                    <p className="text-gray-600">保持滤网清洁，确保吸尘器性能和使用寿命</p>
+                    <h4 className="font-bold text-gray-800">Soft Brush Tool</h4>
+                    <p className="text-gray-600">Gentle cleaning for delicate dashboard surfaces</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-6 h-6 bg-green-500 rounded-full flex-shrink-0 mt-1"></div>
                   <div>
-                    <h4 className="font-bold text-gray-800">避免液体吸入</h4>
-                    <p className="text-gray-600">确保清洁区域干燥，避免液体进入吸尘器内部</p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="w-6 h-6 bg-green-500 rounded-full flex-shrink-0 mt-1"></div>
-                  <div>
-                    <h4 className="font-bold text-gray-800">储存注意事项</h4>
-                    <p className="text-gray-600">使用后及时清理尘盒，存放在干燥通风处</p>
+                    <h4 className="font-bold text-gray-800">20000Pa Suction</h4>
+                    <p className="text-gray-600">Powerful suction removes pet hair and debris effectively</p>
                   </div>
                 </div>
               </div>
@@ -289,74 +130,96 @@ const CarVacuumCleaner = () => {
         </div>
       </section>
 
-      {/* Product Comparison */}
+      {/* Product Features */}
       <section className="bg-gray-50 section-padding">
         <div className="container-max">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-autobot-primary mb-4">
-              车载吸尘器产品对比
+              Car-Specific Design Features
             </h2>
             <p className="text-xl text-gray-600">
-              选择最适合您的车载清洁解决方案
+              Every detail designed for optimal car cleaning experience
             </p>
           </div>
 
-          <div className="overflow-x-auto">
-            <table className="w-full bg-white rounded-xl shadow-lg overflow-hidden">
-              <thead className="bg-autobot-primary text-white">
-                <tr>
-                  <th className="px-6 py-4 text-left">产品特性</th>
-                  <th className="px-6 py-4 text-center">AutoBot VM5</th>
-                  <th className="px-6 py-4 text-center">AutoBot VX4</th>
-                  <th className="px-6 py-4 text-center">普通车载吸尘器</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200">
-                <tr>
-                  <td className="px-6 py-4 font-medium text-gray-900">电机转速</td>
-                  <td className="px-6 py-4 text-center text-green-600 font-bold">100000rpm</td>
-                  <td className="px-6 py-4 text-center text-green-600 font-bold">高速电机</td>
-                  <td className="px-6 py-4 text-center text-gray-500">30000rpm</td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="px-6 py-4 font-medium text-gray-900">吸力强度</td>
-                  <td className="px-6 py-4 text-center text-green-600 font-bold">超强吸力</td>
-                  <td className="px-6 py-4 text-center text-green-600 font-bold">20000Pa</td>
-                  <td className="px-6 py-4 text-center text-gray-500">一般</td>
-                </tr>
-                <tr>
-                  <td className="px-6 py-4 font-medium text-gray-900">自清洁功能</td>
-                  <td className="px-6 py-4 text-center text-green-600">✓</td>
-                  <td className="px-6 py-4 text-center text-green-600">✓</td>
-                  <td className="px-6 py-4 text-center text-red-500">✗</td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="px-6 py-4 font-medium text-gray-900">多功能设计</td>
-                  <td className="px-6 py-4 text-center text-green-600">吸尘+吹风+充气</td>
-                  <td className="px-6 py-4 text-center text-green-600">吸尘+吹风+充气</td>
-                  <td className="px-6 py-4 text-center text-gray-500">仅吸尘</td>
-                </tr>
-                <tr>
-                  <td className="px-6 py-4 font-medium text-gray-900">配件丰富度</td>
-                  <td className="px-6 py-4 text-center text-green-600">多种专用吸头</td>
-                  <td className="px-6 py-4 text-center text-green-600">多种专用吸头</td>
-                  <td className="px-6 py-4 text-center text-gray-500">基础配件</td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="px-6 py-4 font-medium text-gray-900">电源方式</td>
-                  <td className="px-6 py-4 text-center text-green-600">车载+电池</td>
-                  <td className="px-6 py-4 text-center text-green-600">车载+电池</td>
-                  <td className="px-6 py-4 text-center text-gray-500">仅车载</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="bg-white p-8 rounded-xl shadow-lg text-center card-hover">
+              <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-autobot-primary mb-4">Wireless Freedom</h3>
+              <p className="text-gray-600">
+                Cordless design allows 360° cleaning around your car without 
+                power cord limitations or outlet dependency.
+              </p>
+            </div>
 
-          <div className="text-center mt-8">
-            <a href="https://autobot.im/collections/handheld-vacuum-cleaner-1" 
-               className="btn-primary">
-              选购AutoBot车载吸尘器
-            </a>
+            <div className="bg-white p-8 rounded-xl shadow-lg text-center card-hover">
+              <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-autobot-primary mb-4">Multiple Attachments</h3>
+              <p className="text-gray-600">
+                Complete set of car-specific attachments: crevice tool, brush head, 
+                extension hose for comprehensive car cleaning.
+              </p>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl shadow-lg text-center card-hover">
+              <div className="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M9.504 1.132a1 1 0 01.992 0l1.75 1a1 1 0 11-.992 1.736L10 3.152l-1.254.716a1 1 0 11-.992-1.736l1.75-1zM5.618 4.504a1 1 0 01-.372 1.364L5.016 6l.23.132a1 1 0 11-.992 1.736L3 7.723V8a1 1 0 01-2 0V6a.996.996 0 01.52-.878l1.734-.99a1 1 0 011.364.372zm8.764 0a1 1 0 011.364-.372l1.733.99A1.002 1.002 0 0118 6v2a1 1 0 11-2 0v-.277l-1.254.145a1 1 0 11-.992-1.736l.23-.132-.23-.132a1 1 0 01-.372-1.364zm-7 4a1 1 0 011.364-.372L10 8.848l1.254-.716a1 1 0 11.992 1.736L11 10.723V12a1 1 0 11-2 0v-1.277l-1.246-.855a1 1 0 01-.372-1.364zM3 11a1 1 0 011 1v1.277l1.254.145a1 1 0 01-.992 1.736l-.23-.132-.23.132a1 1 0 01-.992-1.736L4 12.277V12a1 1 0 011-1zm14 0a1 1 0 011 1v.277l1.254.145a1 1 0 01-.992 1.736l-.23-.132-.23.132a1 1 0 01-.992-1.736L17 12.277V12a1 1 0 011-1zm-9.618 4.504a1 1 0 01.372-1.364L9 13.848l1.254.716a1 1 0 11-.992 1.736L9 16.152l-1.254-.716a1 1 0 01-.372-1.364z"/>
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-autobot-primary mb-4">Compact Storage</h3>
+              <p className="text-gray-600">
+                Ergonomic design fits perfectly in car storage compartments, 
+                glove box, or trunk for convenient storage.
+              </p>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl shadow-lg text-center card-hover">
+              <div className="w-16 h-16 bg-red-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd"/>
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-autobot-primary mb-4">Long Battery Life</h3>
+              <p className="text-gray-600">
+                High-capacity battery provides extended cleaning time, 
+                sufficient for multiple car cleaning sessions.
+              </p>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl shadow-lg text-center card-hover">
+              <div className="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-autobot-primary mb-4">Easy Maintenance</h3>
+              <p className="text-gray-600">
+                Self-cleaning function and washable filters make maintenance 
+                simple, ensuring consistent performance.
+              </p>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl shadow-lg text-center card-hover">
+              <div className="w-16 h-16 bg-indigo-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M10 2L3 7v11a1 1 0 001 1h12a1 1 0 001-1V7l-7-5zM8 15V9h4v6H8z"/>
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-autobot-primary mb-4">LED Lighting</h3>
+              <p className="text-gray-600">
+                Built-in LED lights illuminate dark areas under seats 
+                and in corners for thorough cleaning.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -365,18 +228,19 @@ const CarVacuumCleaner = () => {
       <section className="gradient-bg text-white section-padding">
         <div className="container-max text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-            让您的爱车始终保持整洁
+            Keep Your Car Spotless with AutoBot
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            专业车载清洁解决方案，强劲吸力，便携设计
+            Professional car vacuum designed specifically for automotive cleaning needs. 
+            Experience the difference of specialized car cleaning technology.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://autobot.im/products/autobot-vm5-self-cleaner-vacuum-with-air-blower-inflator-pump-car-vacuum" 
+            <a href="https://autobot.im/products/autobot-vx4-new-high-performance-car-vacuum-cleaner" 
                className="btn-primary">
-              立即购买 VM5
+              Shop Car Vacuums
             </a>
             <Link href="/portable-vacuum-cleaner" className="btn-secondary">
-              查看便携系列
+              View Portable Series
             </Link>
           </div>
         </div>
