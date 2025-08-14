@@ -24,7 +24,7 @@ const Layout: React.FC<LayoutProps> = ({ children, title, description, keywords,
     "offers": {
       "@type": "Offer",
       "url": "https://autobot.im/collections/handheld-vacuum-cleaner-1",
-      "priceCurrency": "CNY",
+      "priceCurrency": "USD",
       "availability": "https://schema.org/InStock"
     }
   };
@@ -73,22 +73,22 @@ const Layout: React.FC<LayoutProps> = ({ children, title, description, keywords,
               
               <div className="hidden md:flex items-center space-x-6">
                 <Link href="/handheld-vacuum-cleaner" className="text-gray-700 hover:text-autobot-accent transition-colors">
-                  手持吸尘器
+                  Handheld
                 </Link>
                 <Link href="/car-vacuum-cleaner" className="text-gray-700 hover:text-autobot-accent transition-colors">
-                  车载吸尘器
+                  Car Vacuum
                 </Link>
                 <Link href="/portable-vacuum-cleaner" className="text-gray-700 hover:text-autobot-accent transition-colors">
-                  便携式吸尘器
+                  Portable
                 </Link>
                 <Link href="/cordless-vacuum-cleaner" className="text-gray-700 hover:text-autobot-accent transition-colors">
-                  无线吸尘器
+                  Cordless
                 </Link>
                 <Link href="/compact-vacuum-cleaner" className="text-gray-700 hover:text-autobot-accent transition-colors">
-                  小型吸尘器
+                  Compact
                 </Link>
                 <a href="https://autobot.im" className="bg-autobot-accent text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors">
-                  立即购买
+                  Shop Now
                 </a>
               </div>
             </div>
@@ -112,39 +112,39 @@ const Layout: React.FC<LayoutProps> = ({ children, title, description, keywords,
                   <span className="text-xl font-bold">AutoBot</span>
                 </div>
                 <p className="text-gray-300">
-                  专业手持吸尘器品牌，为您提供高品质的清洁解决方案。
+                  Professional handheld vacuum cleaner brand, providing high-quality cleaning solutions for your needs.
                 </p>
               </div>
               
               <div>
-                <h3 className="text-lg font-bold mb-4">产品系列</h3>
+                <h3 className="text-lg font-bold mb-4">Product Series</h3>
                 <ul className="space-y-2 text-gray-300">
-                  <li><Link href="/handheld-vacuum-cleaner" className="hover:text-white transition-colors">手持吸尘器</Link></li>
-                  <li><Link href="/car-vacuum-cleaner" className="hover:text-white transition-colors">车载吸尘器</Link></li>
-                  <li><Link href="/portable-vacuum-cleaner" className="hover:text-white transition-colors">便携式吸尘器</Link></li>
-                  <li><Link href="/cordless-vacuum-cleaner" className="hover:text-white transition-colors">无线吸尘器</Link></li>
-                  <li><Link href="/compact-vacuum-cleaner" className="hover:text-white transition-colors">小型吸尘器</Link></li>
+                  <li><Link href="/handheld-vacuum-cleaner" className="hover:text-white transition-colors">Handheld Vacuum</Link></li>
+                  <li><Link href="/car-vacuum-cleaner" className="hover:text-white transition-colors">Car Vacuum</Link></li>
+                  <li><Link href="/portable-vacuum-cleaner" className="hover:text-white transition-colors">Portable Vacuum</Link></li>
+                  <li><Link href="/cordless-vacuum-cleaner" className="hover:text-white transition-colors">Cordless Vacuum</Link></li>
+                  <li><Link href="/compact-vacuum-cleaner" className="hover:text-white transition-colors">Compact Vacuum</Link></li>
                 </ul>
               </div>
               
               <div>
-                <h3 className="text-lg font-bold mb-4">购买渠道</h3>
+                <h3 className="text-lg font-bold mb-4">Shop</h3>
                 <ul className="space-y-2 text-gray-300">
-                  <li><a href="https://autobot.im" className="hover:text-white transition-colors">官方商城</a></li>
-                  <li><a href="https://autobot.im/collections/handheld-vacuum-cleaner-1" className="hover:text-white transition-colors">手持系列</a></li>
+                  <li><a href="https://autobot.im" className="hover:text-white transition-colors">Official Store</a></li>
+                  <li><a href="https://autobot.im/collections/handheld-vacuum-cleaner-1" className="hover:text-white transition-colors">Handheld Series</a></li>
                 </ul>
               </div>
               
               <div>
-                <h3 className="text-lg font-bold mb-4">联系我们</h3>
+                <h3 className="text-lg font-bold mb-4">Contact</h3>
                 <p className="text-gray-300">
-                  官网：<a href="https://autobot.im" className="hover:text-white transition-colors">autobot.im</a>
+                  Website: <a href="https://autobot.im" className="hover:text-white transition-colors">autobot.im</a>
                 </p>
               </div>
             </div>
             
             <div className="border-t border-gray-600 mt-8 pt-8 text-center text-gray-300">
-              <p>&copy; 2024 AutoBot. 保留所有权利。</p>
+              <p>&copy; 2024 AutoBot. All rights reserved.</p>
             </div>
           </div>
         </footer>
