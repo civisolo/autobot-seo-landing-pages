@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container-max {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .section-padding {
+    @apply py-16 lg:py-24;
+  }
+  
+  .gradient-bg {
+    @apply bg-gradient-to-br from-autobot-primary via-autobot-secondary to-autobot-accent;
+  }
+  
+  .btn-primary {
+    @apply bg-autobot-accent hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg;
+  }
+  
+  .btn-secondary {
+    @apply bg-transparent border-2 border-white text-white hover:bg-white hover:text-autobot-primary font-bold py-4 px-8 rounded-lg transition-all duration-300;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-2;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-autobot-accent to-blue-600 bg-clip-text text-transparent;
+  }
+}
