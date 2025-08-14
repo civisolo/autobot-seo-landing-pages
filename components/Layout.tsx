@@ -14,7 +14,7 @@ const Layout: React.FC<LayoutProps> = ({ children, title, description, keywords,
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "AutoBot手持吸尘器",
+    "name": "AutoBot Handheld Vacuum Cleaner",
     "brand": {
       "@type": "Brand",
       "name": "AutoBot"
@@ -43,7 +43,7 @@ const Layout: React.FC<LayoutProps> = ({ children, title, description, keywords,
         <meta property="og:description" content={description} />
         <meta property="og:url" content={canonical} />
         <meta property="og:type" content="product" />
-        <meta property="og:site_name" content="AutoBot吸尘器" />
+        <meta property="og:site_name" content="AutoBot Vacuum Cleaner" />
         
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
