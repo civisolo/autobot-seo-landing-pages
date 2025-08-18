@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: https://landing-pages.autobot.im/sitemap.xml
