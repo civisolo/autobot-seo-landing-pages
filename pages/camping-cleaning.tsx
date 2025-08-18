@@ -2,9 +2,11 @@ import Head from 'next/head'
 import Layout from '../components/Layout'
 import { site, images } from '../data/autobot'
 
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://autobot-seo-landing-pages.vercel.app/'
+
 export default function CampingCleaning() {
-  const title = '露营清洁专用手持/车载吸尘器 | AutoBot Camping Cleaning'
-  const desc = '露营/车宿/房车场景的便携清洁方案：无线强吸、吸吹一体、Type‑C快充、HEPA可水洗，家车两用。'
+  const title = 'Camping Cleaning | AutoBot Portable Handheld/Car Vacuums'
+  const desc = 'Portable cleaning for camping/vanlife/RV: cordless high suction, vacuum + blower/air pump, USB‑C fast charging, washable HEPA. Home & car.'
   return (
     <Layout>
       <Head>
@@ -14,17 +16,17 @@ export default function CampingCleaning() {
         <meta property="og:title" content={title} />
         <meta property="og:description" content={desc} />
         <meta property="og:image" content={site.ogImage} />
-        <link rel="canonical" href={site.url + 'camping-cleaning'} />
+        <link rel="canonical" href={baseUrl + 'camping-cleaning'} />
       </Head>
       <section className="bg-gray-50">
         <div className="mx-auto max-w-6xl px-4 py-12">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <h1 className="text-3xl md:text-4xl font-bold mb-4">露营清洁一站式方案</h1>
-              <p className="text-gray-600 mb-6">野外露营/车宿对清洁工具提出“便携、多功能、长续航”的更高要求。AutoBot 无线手持系列，支持吸吹一体/充气、Type‑C 快充、HEPA 可水洗，轻松应对沙尘、碎屑、帐内床垫充放气等。</p>
+              <h1 className="text-3xl md:text-4xl font-bold mb-4">One‑stop Camping Cleaning</h1>
+              <p className="text-gray-600 mb-6">Outdoor camping and vanlife demand portable, multi‑purpose, and long‑lasting cleaning tools. AutoBot cordless handhelds support vacuum + blower/air pump, USB‑C fast charging, and washable HEPA to handle dust, crumbs, and inflating/deflating pads with ease.</p>
               <div className="flex gap-3">
-                <a className="btn-primary" href={site.handheldCollection} target="_blank" rel="noreferrer">查看全系列</a>
-                <a className="btn-secondary" href={site.products.vx4} target="_blank" rel="noreferrer">了解 VX4</a>
+                <a className="inline-flex items-center justify-center rounded-md bg-black px-4 py-2 text-white hover:bg-gray-800 transition" href={site.handheldCollection} target="_blank" rel="noreferrer">Explore lineup</a>
+                <a className="inline-flex items-center justify-center rounded-md border border-gray-300 px-4 py-2 text-gray-800 hover:bg-gray-100 transition" href={site.products.vx4} target="_blank" rel="noreferrer">Learn VX4</a>
               </div>
             </div>
             <div>
@@ -35,15 +37,15 @@ export default function CampingCleaning() {
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-12">
-        <h2 className="text-2xl font-semibold mb-6">为什么适合露营/车宿</h2>
+        <h2 className="text-2xl font-semibold mb-6">Why it fits camping/vanlife</h2>
         <div className="grid md:grid-cols-3 gap-6">
           {[
-            {t:'无线强吸', d:'12–20kPa 强吸力，小体积大能量，快速清理帐内灰尘与碎屑'},
-            {t:'吸吹/充气一体', d:'支持吹尘与充气，兼顾气枕/气垫与设备除尘'},
-            {t:'Type‑C 快充', d:'支持车充/移动电源补能，户外不焦虑'},
-            {t:'HEPA 可水洗', d:'H13 过滤系统，易维护、成本低'},
-            {t:'轻量低噪', d:'携带无负担，夜间不扰营友'},
-            {t:'配件丰富', d:'缝隙吸头/毛刷/软管，覆盖帐篷、后备箱、桌椅等'}
+            {t:'Cordless high suction', d:'12–20 kPa in a compact body to quickly clean dust and crumbs'},
+            {t:'Vac + blow / air pump', d:'Dust blowing and inflating pads/pillows with one device'},
+            {t:'USB‑C fast charging', d:'Car charger / power bank friendly. No range anxiety outdoors'},
+            {t:'Washable HEPA', d:'H13 filtration, easy maintenance and lower cost'},
+            {t:'Lightweight & quiet', d:'Easy to carry, less disturbance at night'},
+            {t:'Rich accessories', d:'Crevice/brush/hose for tent, trunk, tables and more'}
           ].map((f)=> (
             <div key={f.t} className="p-6 bg-white rounded-lg shadow">
               <h3 className="font-semibold mb-2">{f.t}</h3>
@@ -55,7 +57,7 @@ export default function CampingCleaning() {
 
       <section className="bg-gray-50">
         <div className="mx-auto max-w-6xl px-4 py-12">
-          <h2 className="text-2xl font-semibold mb-6">推荐产品</h2>
+          <h2 className="text-2xl font-semibold mb-6">Recommended products</h2>
           <div className="grid md:grid-cols-4 gap-6">
             {images.products.slice(0,4).map((src, idx)=> (
               <a key={idx} href={idx<2? site.products.vx4 : site.products.vm5} target="_blank" rel="noreferrer" className="block">
@@ -67,15 +69,15 @@ export default function CampingCleaning() {
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-12">
-        <h2 className="text-2xl font-semibold mb-4">常见问题</h2>
+        <h2 className="text-2xl font-semibold mb-4">FAQ</h2>
         <div className="space-y-4 text-gray-700">
           <details className="p-4 bg-white rounded-lg shadow">
-            <summary className="font-medium">户外如何补能？</summary>
-            <p className="mt-2">支持 USB‑C 车充/移动电源充电；部分机型支持快充，露营期间可边玩边补能。</p>
+            <summary className="font-medium">How to recharge outdoors?</summary>
+            <p className="mt-2">USB‑C car charger / power bank are supported. Some models support fast charging for quick top‑ups during trips.</p>
           </details>
           <details className="p-4 bg-white rounded-lg shadow">
-            <summary className="font-medium">吸吹一体有哪些用途？</summary>
-            <p className="mt-2">可用于帐内除尘、设备吹灰，也可为气枕/气垫充放气，一机多用。</p>
+            <summary className="font-medium">What can the blower/air pump do?</summary>
+            <p className="mt-2">Blow dust from gear and inflate/deflate pillows and pads — multi‑use in one device.</p>
           </details>
         </div>
       </section>
