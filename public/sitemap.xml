@@ -14,30 +14,6 @@
     <loc>https://autobot.im/sitemap_blogs_1.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>https://pet-hair-vacuum-ultimate.autobot.im</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://landing-pages.autobot.im/</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://landing-pages.autobot.im/handheld-vacuum-cleaner</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://landing-pages.autobot.im/car-vacuum-cleaner</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://landing-pages.autobot.im/portable-vacuum-cleaner</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://landing-pages.autobot.im/cordless-vacuum-cleaner</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://landing-pages.autobot.im/compact-vacuum-cleaner</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://landing-pages.autobot.im/camping-cleaning</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://landing-pages.autobot.im/pet-family-cleaning</loc>
+    <loc>https://autobot.im/sitemap_landings.xml</loc>
   </sitemap>
 </sitemapindex>
