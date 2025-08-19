@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { siteInfo } from '../data/autobot'
+import { siteInfo, productLinks } from '../data/autobot'
 
 interface LayoutProps {
   children: React.ReactNode
