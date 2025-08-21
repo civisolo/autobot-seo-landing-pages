@@ -2,21 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   
-  <!-- 主页 -->
   <url>
-    <loc>https://autobot.im/</loc>
+    <loc>https://pet-hair-vacuum-ultimate.autobot.im</loc>
+    <lastmod>2025-08-21T23:53:28+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://autobot.im/cdn/shop/files/WechatIMG17_1512x.jpg?v=1731639434</image:loc>
+      <image:title>AutoBot Pet Hair Vacuum Ultimate</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://landing-pages.autobot.im/</loc>
     <lastmod>2025-08-21T23:53:28+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://autobot.im/cdn/shop/files/logo_e5b0dcbb-f25e-493a-b119-2aee7251f28f_180x.png?v=1614287289</image:loc>
-      <image:title>AutoBot Car Handheld Vacuum Cleaner</image:title>
+      <image:title>AutoBot Landing Pages</image:title>
     </image:image>
   </url>
 
-  <!-- 手持吸尘器落地页 -->
   <url>
-    <loc>https://autobot.im/handheld-vacuum-cleaner</loc>
+    <loc>https://landing-pages.autobot.im/handheld-vacuum-cleaner</loc>
     <lastmod>2025-08-21T23:53:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -26,9 +35,8 @@
     </image:image>
   </url>
 
-  <!-- 车载吸尘器落地页 -->
   <url>
-    <loc>https://autobot.im/car-vacuum-cleaner</loc>
+    <loc>https://landing-pages.autobot.im/car-vacuum-cleaner</loc>
     <lastmod>2025-08-21T23:53:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -38,9 +46,8 @@
     </image:image>
   </url>
 
-  <!-- 便携式吸尘器落地页 -->
   <url>
-    <loc>https://autobot.im/portable-vacuum-cleaner</loc>
+    <loc>https://landing-pages.autobot.im/portable-vacuum-cleaner</loc>
     <lastmod>2025-08-21T23:53:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -50,9 +57,8 @@
     </image:image>
   </url>
 
-  <!-- 无线吸尘器落地页 -->
   <url>
-    <loc>https://autobot.im/cordless-vacuum-cleaner</loc>
+    <loc>https://landing-pages.autobot.im/cordless-vacuum-cleaner</loc>
     <lastmod>2025-08-21T23:53:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -62,9 +68,8 @@
     </image:image>
   </url>
 
-  <!-- 小型吸尘器落地页 -->
   <url>
-    <loc>https://autobot.im/compact-vacuum-cleaner</loc>
+    <loc>https://landing-pages.autobot.im/compact-vacuum-cleaner</loc>
     <lastmod>2025-08-21T23:53:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -74,9 +79,8 @@
     </image:image>
   </url>
 
-  <!-- 露营清洁落地页 -->
   <url>
-    <loc>https://autobot.im/camping-cleaning</loc>
+    <loc>https://landing-pages.autobot.im/camping-cleaning</loc>
     <lastmod>2025-08-21T23:53:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -86,51 +90,14 @@
     </image:image>
   </url>
 
-  <!-- 宠物家庭清洁落地页 -->
   <url>
-    <loc>https://autobot.im/pet-family-cleaning</loc>
+    <loc>https://landing-pages.autobot.im/pet-family-cleaning</loc>
     <lastmod>2025-08-21T23:53:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <image:image>
       <image:loc>https://autobot.im/cdn/shop/files/WechatIMG17_1512x.jpg?v=1731639434</image:loc>
       <image:title>AutoBot Pet Family Cleaning Solutions</image:title>
-    </image:image>
-  </url>
-
-  <!-- 产品系列页 -->
-  <url>
-    <loc>https://autobot.im/collections/handheld-vacuum-cleaner-1</loc>
-    <lastmod>2025-08-21T23:53:28+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://autobot.im/cdn/shop/files/logo_e5b0dcbb-f25e-493a-b119-2aee7251f28f_180x.png?v=1614287289</image:loc>
-      <image:title>AutoBot Handheld Vacuum Cleaner Collection</image:title>
-    </image:image>
-  </url>
-
-  <!-- VX4产品页 -->
-  <url>
-    <loc>https://autobot.im/products/autobot-vx4-new-high-performance-car-vacuum-cleaner</loc>
-    <lastmod>2025-08-21T23:53:28+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://autobot.im/cdn/shop/files/2_4a495038-be2c-4c9b-b36f-71a8edce9d30.jpg?v=1613790551</image:loc>
-      <image:title>AutoBot VX4 High Performance Car Vacuum Cleaner</image:title>
-    </image:image>
-  </url>
-
-  <!-- VM5产品页 -->
-  <url>
-    <loc>https://autobot.im/products/autobot-vm5-car-vacuum-handheld-vacuum-cleaner-blow-suction-2-in-1-100000rpm</loc>
-    <lastmod>2025-08-21T23:53:28+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://autobot.im/cdn/shop/files/WechatIMG17_1512x.jpg?v=1731639434</image:loc>
-      <image:title>AutoBot VM5 Car Vacuum Handheld Vacuum Cleaner Blow &amp; Suction 2 in 1</image:title>
     </image:image>
   </url>
 
