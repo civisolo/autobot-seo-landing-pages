@@ -10,7 +10,7 @@ export const siteInfo = {
 export const productLinks = {
   mainCollection: "https://autobot.im/collections/handheld-vacuum-cleaner-1",
   vx4: "https://autobot.im/products/autobot-vx4-new-high-performance-car-vacuum-cleaner",
-  vm5: "https://autobot.im/products/autobot-vm5-self-cleaner-vacuum-with-air-blower-inflator-pump-car-vacuum",
+  vm5: "https://autobot.im/products/autobot-vm5-car-vacuum-handheld-vacuum-cleaner-blow-suction-2-in-1-100000rpm",
 };
 
 export const images = {

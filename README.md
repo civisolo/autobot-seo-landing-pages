@@ -22,6 +22,6 @@
 - 官方商城：<https://autobot.im>
 - 系列页：<https://autobot.im/collections/handheld-vacuum-cleaner-1>
 - VX4：<https://autobot.im/products/autobot-vx4-new-high-performance-car-vacuum-cleaner>
-- VM5：<https://autobot.im/products/autobot-vm5-self-cleaner-vacuum-with-air-blower-inflator-pump-car-vacuum>
+- VM5：<https://autobot.im/products/autobot-vm5-car-vacuum-handheld-vacuum-cleaner-blow-suction-2-in-1-100000rpm>
 
 部署到 Vercel 后，直接访问对应路径验证。

@@ -1,0 +1,132 @@
+{
+  "site": {
+    "url": "https://autobot.im/",
+    "title": null,
+    "description": null,
+    "icons": [
+      {
+        "rel": "shortcut icon",
+        "href": "https://autobot.im/cdn/shop/files/d0056d1190050fdac1e467172e726bd_32x32.png?v=1613773948",
+        "type": "image/png"
+      }
+    ],
+    "logo": {
+      "src": "https://autobot.im/cdn/shop/files/logo_e5b0dcbb-f25e-493a-b119-2aee7251f28f_180x.png?v=1614287289",
+      "alt": "AutoBot Car Handheld Vacuum Cleaner Home Kitchen automotive life creative innovation",
+      "anchorHref": "https://autobot.im/"
+    },
+    "og": {
+      "title": null,
+      "description": null,
+      "image": "https://cdn.shopify.com/s/files/1/0432/5906/8579/files/WechatIMG17_eb38c91b-8bd1-45c3-b542-376e53c95fd8.jpg?v=1731640607"
+    },
+    "twitter": {
+      "title": null,
+      "description": null,
+      "image": "https://autobot.im/null"
+    },
+    "headings": {
+      "h1": [
+        "AutoBot VX4 Vaccum",
+        "AutoBot VM5 Self Cleaner Vacuum",
+        "Welcome to AutoBot Vacuum",
+        "AutoBot VX Handheld Vacuum"
+      ],
+      "h2": [
+        "Self Clean Handheld Vacuum with Air Blower Inflator Pump Dust Buster 20000Pa",
+        "Handheld Vacuum with Air Blower Inflator Pump Dust Buster, Car Vacuum",
+        "Your new cleaning assistant, powerful  handheld vaccum cleaner",
+        "Max 16KPA Strong Suction",
+        "Best Sellers"
+      ]
+    }
+  },
+  "assets": {
+    "images": [
+      {
+        "type": "img",
+        "src": "https://autobot.im/cdn/shop/files/WechatIMG17_1512x.jpg?v=1731639434",
+        "localPath": "/Users/mac/Project/SEO/imags/autobot.im/WechatIMG17_1512x.jpg",
+        "anchorHref": null,
+        "width": 1500,
+        "height": 750
+      },
+      {
+        "type": "img",
+        "src": "https://autobot.im/cdn/shop/files/WechatIMG18_1512x.jpg?v=1731639595",
+        "localPath": "/Users/mac/Project/SEO/imags/autobot.im/WechatIMG18_1512x.jpg",
+        "anchorHref": null,
+        "width": 1500,
+        "height": 750
+      },
+      {
+        "type": "img",
+        "src": "https://autobot.im/cdn/shop/files/2_4a495038-be2c-4c9b-b36f-71a8edce9d30.jpg?v=1618909526",
+        "localPath": "/Users/mac/Project/SEO/imags/autobot.im/2_4a495038-be2c-4c9b-b36f-71a8edce9d30.jpg",
+        "anchorHref": null,
+        "width": 2045,
+        "height": 749
+      },
+      {
+        "type": "img",
+        "src": "https://autobot.im/cdn/shop/files/08b4b38087c9ded5c564f082b2902306.jpg?v=1619509787",
+        "localPath": "/Users/mac/Project/SEO/imags/autobot.im/08b4b38087c9ded5c564f082b2902306.jpg",
+        "anchorHref": null,
+        "width": 2045,
+        "height": 749
+      },
+      {
+        "type": "img",
+        "src": "https://autobot.im/cdn/shop/files/home_banner_01_1950x.jpg?v=1613790551",
+        "localPath": "/Users/mac/Project/SEO/imags/autobot.im/home_banner_01_1950x.jpg",
+        "anchorHref": null,
+        "width": 1799,
+        "height": 899
+      },
+      {
+        "type": "background",
+        "src": "https://autobot.im/cdn/shop/t/18/assets/loading.svg?v=12949615357343360751617863980",
+        "localPath": "/Users/mac/Project/SEO/imags/autobot.im/loading.svg",
+        "anchorHref": null,
+        "width": 1366,
+        "height": 900
+      },
+      {
+        "type": "img",
+        "src": "https://autobot.im/cdn/shop/products/1_70d33915-820a-4f8b-b654-53fde2f7904f-349479_360x.jpg?v=1626270320",
+        "anchorHref": "https://autobot.im/products/new-disruptive-20kpa-autobot-vx-max-handheld-vacuum-cleaner",
+        "width": 279,
+        "height": 279
+      },
+      {
+        "type": "img",
+        "src": "https://autobot.im/cdn/shop/files/post_7_360x.jpg?v=1731551692",
+        "anchorHref": "https://autobot.im/products/autobot-vx4-new-high-performance-car-vacuum-cleaner",
+        "width": 279,
+        "height": 279
+      },
+      {
+        "type": "img",
+        "src": "https://autobot.im/cdn/shop/files/1_9127fe07-9ee6-4d46-a1ec-67c26f7341be_360x.jpg?v=1731554759",
+        "anchorHref": "https://autobot.im/products/autobot-vm5-car-vacuum-handheld-vacuum-cleaner-blow-suction-2-in-1-100000rpm",
+        "width": 279,
+        "height": 279
+      },
+      {
+        "type": "img",
+        "src": "https://autobot.im/cdn/shop/files/VM4-5_360x.jpg?v=1694225650",
+        "anchorHref": "https://autobot.im/products/new-collection-autobot-vm4-vacuum-and-blower",
+        "width": 279,
+        "height": 279
+      },
+      {
+        "type": "img",
+        "src": "https://autobot.im/cdn/shop/products/3c5cd48aa2be830d71d6e973190fb76-903035_360x.jpg?v=1636740015",
+        "anchorHref": "https://autobot.im/products/autobotv-mini-max-12kpa-lightest-cordless-brushless-motor-handheld-vacuum-cleaner-%E7%9A%84%E5%89%AF%E6%9C%AC",
+        "width": 279,
+        "height": 279
+      }
+    ]
+  },
+  "generatedAt": "2025-08-18T00:00:00.000Z"
+} 
