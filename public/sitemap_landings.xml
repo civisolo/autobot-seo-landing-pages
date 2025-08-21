@@ -1,30 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
   <url>
     <loc>https://pet-hair-vacuum-ultimate.autobot.im</loc>
+    <lastmod>2025-08-21T23:53:28+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://autobot.im/cdn/shop/files/WechatIMG17_1512x.jpg?v=1731639434</image:loc>
+      <image:title>AutoBot Pet Hair Vacuum Ultimate</image:title>
+    </image:image>
   </url>
+
   <url>
     <loc>https://landing-pages.autobot.im/</loc>
+    <lastmod>2025-08-21T23:53:28+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://autobot.im/cdn/shop/files/logo_e5b0dcbb-f25e-493a-b119-2aee7251f28f_180x.png?v=1614287289</image:loc>
+      <image:title>AutoBot Landing Pages</image:title>
+    </image:image>
   </url>
+
   <url>
     <loc>https://landing-pages.autobot.im/handheld-vacuum-cleaner</loc>
+    <lastmod>2025-08-21T23:53:28+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://autobot.im/cdn/shop/files/08b4b38087c9ded5c564f082b2902306.jpg?v=1613790551</image:loc>
+      <image:title>AutoBot Handheld Vacuum Cleaner</image:title>
+    </image:image>
   </url>
+
   <url>
     <loc>https://landing-pages.autobot.im/car-vacuum-cleaner</loc>
+    <lastmod>2025-08-21T23:53:28+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://autobot.im/cdn/shop/files/2_4a495038-be2c-4c9b-b36f-71a8edce9d30.jpg?v=1613790551</image:loc>
+      <image:title>AutoBot Car Vacuum Cleaner</image:title>
+    </image:image>
   </url>
+
   <url>
     <loc>https://landing-pages.autobot.im/portable-vacuum-cleaner</loc>
+    <lastmod>2025-08-21T23:53:28+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://autobot.im/cdn/shop/files/WechatIMG17_1512x.jpg?v=1731639434</image:loc>
+      <image:title>AutoBot Portable Vacuum Cleaner</image:title>
+    </image:image>
   </url>
+
   <url>
     <loc>https://landing-pages.autobot.im/cordless-vacuum-cleaner</loc>
+    <lastmod>2025-08-21T23:53:28+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://autobot.im/cdn/shop/files/WechatIMG18_1512x.jpg?v=1731639434</image:loc>
+      <image:title>AutoBot Cordless Vacuum Cleaner</image:title>
+    </image:image>
   </url>
+
   <url>
     <loc>https://landing-pages.autobot.im/compact-vacuum-cleaner</loc>
+    <lastmod>2025-08-21T23:53:28+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://autobot.im/cdn/shop/files/08b4b38087c9ded5c564f082b2902306.jpg?v=1613790551</image:loc>
+      <image:title>AutoBot Compact Vacuum Cleaner</image:title>
+    </image:image>
   </url>
+
   <url>
     <loc>https://landing-pages.autobot.im/camping-cleaning</loc>
+    <lastmod>2025-08-21T23:53:28+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://autobot.im/cdn/shop/files/home_banner_01_1950x.jpg?v=1613790551</image:loc>
+      <image:title>AutoBot Camping Cleaning Solutions</image:title>
+    </image:image>
   </url>
+
   <url>
     <loc>https://landing-pages.autobot.im/pet-family-cleaning</loc>
+    <lastmod>2025-08-21T23:53:28+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://autobot.im/cdn/shop/files/WechatIMG17_1512x.jpg?v=1731639434</image:loc>
+      <image:title>AutoBot Pet Family Cleaning Solutions</image:title>
+    </image:image>
   </url>
+
 </urlset>
