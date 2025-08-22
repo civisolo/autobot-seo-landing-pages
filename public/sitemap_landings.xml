@@ -101,4 +101,26 @@
     </image:image>
   </url>
 
+  <url>
+    <loc>https://landing-pages.autobot.im/byd-car-vacuum-cleaner</loc>
+    <lastmod>2025-08-21T23:53:28+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://autobot.im/cdn/shop/files/home_banner_01_1950x.jpg?v=1613790551</image:loc>
+      <image:title>AutoBot BYD Car Vacuum Cleaner</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://landing-pages.autobot.im/crumbs-car-vacuum-cleaner</loc>
+    <lastmod>2025-08-21T23:53:28+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://autobot.im/cdn/shop/files/WechatIMG17_1512x.jpg?v=1731639434</image:loc>
+      <image:title>AutoBot Crumbs Car Vacuum Cleaner</image:title>
+    </image:image>
+  </url>
+
 </urlset>
