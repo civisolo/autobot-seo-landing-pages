@@ -143,7 +143,7 @@ export default function CordlessVacuumCleaner() {
         </div>
       </section>
 
-      {/* 产品展示 - 仪表板网格 */}
+      {/* Product Showcase - Dashboard Grid */}
       <section className="py-24 bg-gradient-to-b from-slate-50 to-gray-50">
         <div className="mx-auto max-w-7xl px-4">
           <div className="text-center mb-20">

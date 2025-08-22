@@ -54,7 +54,7 @@ export default function PetFamilyCleaning() {
         </div>
       </section>
 
-      {/* 画廊式布局 - 宠物清洁场景 */}
+      {/* Gallery Layout - Pet Cleaning Scenarios */}
       <section className="py-24 bg-gradient-to-b from-purple-50 to-pink-50">
         <div className="mx-auto max-w-7xl px-4">
           <div className="text-center mb-20">
@@ -126,7 +126,7 @@ export default function PetFamilyCleaning() {
         </div>
       </section>
 
-      {/* 产品展示 - 画廊墙布局 */}
+      {/* Product Showcase - Gallery Wall Layout */}
       <section className="py-24 bg-white">
         <div className="mx-auto max-w-7xl px-4">
           <div className="text-center mb-20">
@@ -158,7 +158,7 @@ export default function PetFamilyCleaning() {
         </div>
       </section>
 
-      {/* 特色功能 - 画廊展示 */}
+      {/* Special Features - Gallery Display */}
       <section className="py-24 bg-gradient-to-b from-purple-50 to-pink-50">
         <div className="mx-auto max-w-6xl px-4">
           <div className="text-center mb-20">

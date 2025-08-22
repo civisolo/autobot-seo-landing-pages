@@ -121,7 +121,7 @@ export default function CarVacuumCleaner() {
         </div>
       </section>
 
-      {/* 产品展示 - 马赛克布局 */}
+      {/* Product Showcase - Mosaic Layout */}
       <section className="py-24 bg-white">
         <div className="mx-auto max-w-7xl px-4">
           <div className="text-center mb-20">

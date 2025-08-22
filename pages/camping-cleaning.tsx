@@ -109,7 +109,7 @@ export default function CampingCleaning() {
         </div>
       </section>
 
-      {/* 产品展示 - 故事化布局 */}
+      {/* Product Showcase - Story Layout */}
       <section className="py-24 bg-white">
         <div className="mx-auto max-w-7xl px-4">
           <div className="text-center mb-20">

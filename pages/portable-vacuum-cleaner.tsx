@@ -160,7 +160,7 @@ export default function PortableVacuumCleaner() {
         </div>
       </section>
 
-      {/* 产品展示 - 杂志风格 */}
+      {/* Product Showcase - Magazine Style */}
       <section className="py-24 bg-gradient-to-b from-indigo-50 to-blue-50">
         <div className="mx-auto max-w-7xl px-4">
           <div className="text-center mb-20">

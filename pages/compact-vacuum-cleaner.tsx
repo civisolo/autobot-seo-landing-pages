@@ -9,7 +9,7 @@ export default function CompactVacuumCleaner() {
 
   return (
     <Layout title={title} description={description} keywords={keywords} canonical={canonical}>
-      {/* Hero Section - 产品目录风格 */}
+      {/* Hero Section - Product Catalog Style */}
       <section className="relative min-h-screen bg-gradient-to-br from-yellow-900 via-amber-900 to-orange-900 overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>
         
@@ -54,7 +54,7 @@ export default function CompactVacuumCleaner() {
         </div>
       </section>
 
-      {/* 产品目录布局 - 型号对比 */}
+      {/* Product Catalog Layout - Model Comparison */}
       <section className="py-24 bg-gradient-to-b from-yellow-50 to-amber-50">
         <div className="mx-auto max-w-7xl px-4">
           <div className="text-center mb-20">
@@ -114,7 +114,7 @@ export default function CompactVacuumCleaner() {
         </div>
       </section>
 
-      {/* 规格对比表 - 产品目录风格 */}
+      {/* Specification Comparison Table - Product Catalog Style */}
       <section className="py-24 bg-white">
         <div className="mx-auto max-w-6xl px-4">
           <div className="text-center mb-20">
@@ -154,7 +154,7 @@ export default function CompactVacuumCleaner() {
         </div>
       </section>
 
-      {/* 产品展示 - 目录网格 */}
+      {/* Product Showcase - Catalog Grid */}
       <section className="py-24 bg-gradient-to-b from-yellow-50 to-amber-50">
         <div className="mx-auto max-w-7xl px-4">
           <div className="text-center mb-20">
@@ -186,7 +186,7 @@ export default function CompactVacuumCleaner() {
         </div>
       </section>
 
-      {/* 使用场景 - 目录展示 */}
+      {/* Use Cases - Catalog Display */}
       <section className="py-24 bg-white">
         <div className="mx-auto max-w-6xl px-4">
           <div className="text-center mb-20">
@@ -227,7 +227,7 @@ export default function CompactVacuumCleaner() {
         </div>
       </section>
 
-      {/* CTA Section - 产品目录风格 */}
+      {/* CTA Section - Product Catalog Style */}
       <section className="py-24 bg-gradient-to-r from-yellow-600 to-amber-600">
         <div className="mx-auto max-w-5xl px-4 text-center">
           <div className="inline-flex items-center justify-center w-24 h-24 bg-white/10 rounded-full mb-8">

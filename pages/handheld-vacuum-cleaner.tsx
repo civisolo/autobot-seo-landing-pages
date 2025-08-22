@@ -46,7 +46,7 @@ export default function HandheldVacuumCleaner() {
         </div>
       </section>
 
-      {/* 特色功能卡片网格 */}
+      {/* Feature Cards Grid */}
       <section className="py-24 bg-gray-50">
         <div className="mx-auto max-w-7xl px-4">
           <div className="text-center mb-20">
@@ -114,7 +114,7 @@ export default function HandheldVacuumCleaner() {
         </div>
       </section>
 
-      {/* 产品展示 - 瀑布流布局 */}
+      {/* Product Showcase - Waterfall Layout */}
       <section className="py-24 bg-white">
         <div className="mx-auto max-w-7xl px-4">
           <div className="text-center mb-20">
