@@ -179,77 +179,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="py-24 bg-white">
-        <div className="mx-auto max-w-6xl px-4">
-          <div className="text-center mb-20">
-            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">Why Choose AutoBot Landing Pages</h2>
-            <p className="text-xl text-gray-600">Professional landing pages designed for maximum conversion</p>
-          </div>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              {
-                icon: "🎨",
-                title: "Unique Layouts",
-                description: "Each page features a distinct design approach for different target audiences"
-              },
-              {
-                icon: "📱",
-                title: "Mobile Optimized",
-                description: "All pages are fully responsive and optimized for mobile devices"
-              },
-              {
-                icon: "⚡",
-                title: "Fast Loading",
-                description: "Optimized for speed with modern web technologies"
-              },
-              {
-                icon: "🔍",
-                title: "SEO Optimized",
-                description: "Built with search engine optimization best practices"
-              },
-              {
-                icon: "🎯",
-                title: "Conversion Focused",
-                description: "Designed to maximize user engagement and conversions"
-              },
-              {
-                icon: "🛠️",
-                title: "Easy Maintenance",
-                description: "Clean code structure for easy updates and modifications"
-              }
-            ].map((feature) => (
-              <div key={feature.title} className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-blue-500 to-indigo-600 text-white text-2xl rounded-2xl mb-6">
-                  {feature.icon}
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">{feature.title}</h3>
-                <p className="text-gray-600 leading-relaxed">{feature.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
-      {/* CTA Section */}
-      <section className="py-24 bg-gradient-to-r from-blue-600 to-indigo-600">
-        <div className="mx-auto max-w-5xl px-4 text-center">
-          <div className="inline-flex items-center justify-center w-24 h-24 bg-white/10 rounded-full mb-8">
-            <span className="text-5xl">🚀</span>
-          </div>
-          <h2 className="text-4xl lg:text-5xl font-bold text-white mb-8">
-            Ready to Explore AutoBot Solutions?
-          </h2>
-          <p className="text-2xl text-blue-100 mb-12 max-w-3xl mx-auto">
-            Choose the perfect landing page for your cleaning needs and discover AutoBot's innovative vacuum technology
-          </p>
-          <a className="inline-flex items-center justify-center px-12 py-6 bg-white text-blue-600 font-bold text-xl rounded-2xl hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 shadow-2xl" 
-             href={site.handheldCollection} target="_blank" rel="noreferrer">
-            Shop AutoBot Products
-          </a>
-        </div>
-      </section>
     </Layout>
   )
 }
