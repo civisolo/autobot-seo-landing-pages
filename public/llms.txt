@@ -55,4 +55,31 @@
 - [SHOP NOW](https://autobot.im/products/autobot-compressed-air-duster): A call to action for immediate shopping.
 - [shop now](https://autobot.im/products/handheld-vacuum-cleaner): Another prompt encouraging users to explore products.
 
-This structured summary provides a comprehensive overview of the documentation, maintaining clarity and organization for easy reference.
+# AutoBot Vacuum Cleaner Products | Professional Cleaning Solutions
+
+Explore AutoBot's comprehensive range of vacuum cleaner products. From handheld to car vacuums, portable to cordless solutions. Professional cleaning technology for every need.
+
+## Product Categories
+
+### Handheld Solutions
+- [Handheld Vacuum Cleaner](https://landing-pages.autobot.im/handheld-vacuum-cleaner): High suction in a compact body with USB‑C fast charging and washable HEPA. Perfect for home and car cleaning.
+- [Handheld Vacuum Cleaner - AutoBot Professional Handheld ...](https://landing-pages.autobot.im/): Additional details on the professional handheld vacuum cleaner offerings.
+
+### Car Cleaning Solutions
+- [Car Vacuum Cleaner](https://landing-pages.autobot.im/car-vacuum-cleaner): Timeline layout showcasing the cleaning process with powerful suction for automotive interiors.
+- [BYD Car Vacuum Cleaner](https://landing-pages.autobot.im/byd-car-vacuum-cleaner): Tech-focused layout designed specifically for BYD vehicle owners, emphasizing compatibility and performance.
+- [Crumbs Car Vacuum Cleaner](https://landing-pages.autobot.im/crumbs-car-vacuum-cleaner): Lifestyle layout for cleaning car crumbs and food debris with specialized features tailored for food debris management.
+
+### Portable Cleaning Solutions
+- [Portable Vacuum Cleaner](https://landing-pages.autobot.im/portable-vacuum-cleaner): Magazine-style layout featuring portability and convenience for modern lifestyles, ideal for on-the-go cleaning.
+- [Camping Cleaning](https://landing-pages.autobot.im/camping-cleaning): Storyboard layout with scene-based cleaning solutions for outdoor adventures, highlighting the versatility of portable vacuums.
+
+### Cordless and Compact Options
+- [Cordless Vacuum Cleaner](https://landing-pages.autobot.im/cordless-vacuum-cleaner): Dashboard layout with technical specifications and performance comparisons, showcasing the freedom of movement offered by cordless technology.
+- [Compact Vacuum Cleaner](https://landing-pages.autobot.im/compact-vacuum-cleaner): Product catalog layout with model comparisons and specifications, focusing on small yet powerful vacuum options.
+
+### Specialized Cleaning Tools
+- [Compressed Air Duster](https://landing-pages.autobot.im/static-pages/compressed-air-duster.html): Discover AutoBot's innovative compressed air duster - the ultimate 2-in-1 blow & suction cleaning tool for cars, keyboards, PC cleaning, and more.
+
+### Pet-Friendly Solutions
+- [Pet Family Cleaning](https://landing-pages.autobot.im/pet-family-cleaning): Gallery layout showcasing pet cleaning scenarios and specialized features designed to tackle pet hair and messes effectively.
