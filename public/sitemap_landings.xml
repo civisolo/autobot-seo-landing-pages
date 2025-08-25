@@ -3,6 +3,17 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   
   <url>
+    <loc>https://landing-pages.autobot.im/</loc>
+    <lastmod>2025-08-21T23:53:28+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://autobot.im/cdn/shop/files/logo_e5b0dcbb-f25e-493a-b119-2aee7251f28f_180x.png?v=1614287289</image:loc>
+      <image:title>AutoBot Landing Pages Home</image:title>
+    </image:image>
+  </url>
+
+  <url>
     <loc>https://pet-hair-vacuum-ultimate.autobot.im</loc>
     <lastmod>2025-08-21T23:53:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -10,17 +21,6 @@
     <image:image>
       <image:loc>https://autobot.im/cdn/shop/files/WechatIMG17_1512x.jpg?v=1731639434</image:loc>
       <image:title>AutoBot Pet Hair Vacuum Ultimate</image:title>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://landing-pages.autobot.im/</loc>
-    <lastmod>2025-08-21T23:53:28+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-    <image:image>
-      <image:loc>https://autobot.im/cdn/shop/files/logo_e5b0dcbb-f25e-493a-b119-2aee7251f28f_180x.png?v=1614287289</image:loc>
-      <image:title>AutoBot Landing Pages</image:title>
     </image:image>
   </url>
 
