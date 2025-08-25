@@ -90,6 +90,42 @@ export default function Home() {
                 </div>
               </Link>
             ))}
+            
+            {/* Static Pages Link */}
+            <Link href="/static-pages" className="group block">
+              <div className="bg-white rounded-3xl shadow-xl hover:shadow-2xl transform hover:-translate-y-4 transition-all duration-500 border border-gray-100 overflow-hidden">
+                <div className="relative overflow-hidden">
+                  <img 
+                    src="//autobot.im/cdn/shop/files/20250227140300_d4b5a701-da0c-4f48-b565-f10a02d52e31_600x.jpg?v=1740730349" 
+                    alt="Static Landing Pages"
+                    className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <div className="absolute top-4 right-4">
+                    <div className="inline-flex items-center px-3 py-1 bg-gradient-to-r from-purple-500 to-indigo-600 text-white text-sm font-semibold rounded-full">
+                      Static Pages
+                    </div>
+                  </div>
+                </div>
+                <div className="p-6">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2 group-hover:text-purple-600 transition-colors duration-300">
+                    Static Landing Pages
+                  </h3>
+                  <p className="text-lg font-semibold text-gray-600 mb-3">
+                    Specialized Campaign Pages
+                  </p>
+                  <p className="text-gray-600 leading-relaxed mb-4">
+                    Discover our specialized static landing pages for specific products and campaigns, optimized for maximum conversion.
+                  </p>
+                  <div className="flex items-center text-purple-600 font-semibold group-hover:text-purple-700 transition-colors duration-300">
+                    <span>View Static Pages</span>
+                    <svg className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </Link>
           </div>
         </div>
       </section>
