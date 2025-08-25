@@ -7,6 +7,7 @@ export interface ProductData {
   description: string
   image: string
   color: string
+  isExternal?: boolean
 }
 
 // 产品标题映射
