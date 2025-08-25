@@ -1,0 +1,58 @@
+# Available Links
+
+## E-commerce Platforms
+- [Tmall](https://m.tb.cn/h.huqFrYoS4vhGZ3P): A popular online shopping platform in China, offering a wide range of products.
+- [JD](https://mall.jd.com/index-1000625403.html?from=pc): Another major Chinese e-commerce platform known for its reliable delivery and quality products.
+- [Amazon](https://www.amazon.com/AutoBot-Handheld-Portable-Cleaning-Rechargeable/dp/B0D73RY2LB?ref_=ast_sto_dp&th=1): A global e-commerce giant providing a vast selection of products and services.
+- [Shop](https://autobot.im/collections/shop): A general shopping platform for various products.
+
+## Vacuum Cleaners
+- [VX Max vacuum cleaner](https://autobot.im/products/new-disruptive-20kpa-autobot-vx-max-handheld-vacuum-cleaner): A high-performance vacuum cleaner designed for deep cleaning.
+- [V mini max vacuum cleaner](https://autobot.im/products/2021-new-product-autobot-v-mini-max-handheld-vacuum-cleaner): A compact vacuum cleaner ideal for quick clean-ups.
+- [Self Clean Series](https://autobot.im/collections/autobot-self-clean-handler-vaccum/Self-Clean): A series of vacuum cleaners featuring self-cleaning technology for convenience.
+- [AutoBot VX4](https://autobot.im/products/autobot-vx4-new-high-performance-car-vacuum-cleaner): An advanced robotic vacuum cleaner with smart navigation features.
+- [AutoBot VM5](https://autobot.im/products/autobot-vm5-car-vacuum-handheld-vacuum-cleaner-blow-suction-2-in-1-100000rpm): A versatile robotic vacuum cleaner designed for efficient home cleaning.
+- [Handheld Vacuum Cleaner - AutoBot Professional Handheld](https://landing-pages.autobot.im/): A professional-grade handheld vacuum cleaner for versatile cleaning tasks.
+- [Portable Vacuum Cleaner | AutoBot Cordless High Suction](https://landing-pages.autobot.im/portable-vacuum-cleaner): A cordless vacuum cleaner offering high suction power for portability.
+- [Car Vacuum Cleaner | AutoBot Cordless High Suction](https://landing-pages.autobot.im/car-vacuum-cleaner): A specialized vacuum cleaner designed for cleaning vehicles.
+
+## Accessories
+- [Accessory](https://autobot.im/collections/accessory): A section dedicated to various accessories for cleaning devices.
+- [AutoBot Compressed Air Duster](https://autobot.im/collections/autobot-compressed-air-duster): A tool for cleaning delicate electronics and hard-to-reach areas.
+- [Car phone holder](https://autobot.im/collections/frontpage): An accessory designed to securely hold phones in vehicles.
+
+## Home Appliances
+- [Air Purifier](https://autobot.im/collections/air-purifier-for-car): A device designed to improve indoor air quality by removing pollutants.
+- [AutoBot Self-Clean Handler Vacuum](https://autobot.im/collections/autobot-self-clean-handler-vaccum): A vacuum cleaner that features a self-cleaning handler for ease of use.
+- [Hair Dryer - AutoBot Vacuum](https://autobot.im/pages/hair-dryer?srsltid=AfmBOoo65fKosae1eixiZfoA-QK07PLCv_kW_v0Jj50Wp7XYkWp4TI9V): A high-efficiency hair dryer designed for quick drying.
+
+## Company Information
+- [About](https://autobot.im/pages/our-story): Information about the company, its mission, and values.
+- [Contact](https://autobot.im/pages/contact-us): Details on how to get in touch with the company for inquiries.
+- [Our Story - AutoBot Vacuum](https://autobot.im/pages/our-story?srsltid=AfmBOopvAYVs43egsxvxj4FE8da1PatQAKme0C8q8ZdE7YsyfK0_Y3vw): A narrative about the company's history and development.
+- [News Room - AutoBot Vacuum](https://autobot.im/blogs/news-room?srsltid=AfmBOooTOUI_gWi6t70H-RsgCRvIDekqSbbm1mg77yiPVRahrKptQ1AS): A section for the latest news and updates from the company.
+
+## Policies
+- [Terms and Conditions](https://autobot.im/pages/terms-and-conditions): The legal terms governing the use of the website and services.
+- [Privacy Policies](https://autobot.im/pages/policies): Information on how user data is collected and used.
+- [Deliver and Shipping](https://autobot.im/pages/deliver-and-shipping): Details regarding shipping options and delivery times.
+- [Return and Refund Policy](https://autobot.im/pages/return-refund-policy): Guidelines for returning products and obtaining refunds.
+
+## Additional Resources
+- [Blog](https://autobot.im/blogs/info): A blog featuring articles and tips related to cleaning and home maintenance.
+- [Media](https://autobot.im/blogs/media-reviews): A section showcasing media coverage and press releases.
+- [Coupon Store](https://www.couponxoo.com/stores/autobot): A platform for accessing discounts and promotional offers.
+- [Catalog - AutoBot Vacuum](https://autobot.im/collections/all?srsltid=AfmBOoryfvaa9QbUObC2AbgfDGwvTELPXmruXBy2c6As92ZFqpowRNDq): A comprehensive catalog of all AutoBot products available for purchase.
+
+## User Actions
+- [Log in](https://autobot.im/account/login): Access your account to manage orders and preferences.
+- [Create account](https://autobot.im/account/register): Sign up for a new account to start shopping.
+- [Search](https://autobot.im/search): A search function to find specific products quickly.
+- [Cart](https://autobot.im/cart): View and manage items selected for purchase.
+
+## Promotional Content
+- [Watch the Video](https://youtu.be/KcwQxe55pxg): A video showcasing product features and benefits.
+- [SHOP NOW](https://autobot.im/products/autobot-compressed-air-duster): A call to action for immediate shopping.
+- [shop now](https://autobot.im/products/handheld-vacuum-cleaner): Another prompt encouraging users to explore products.
+
+This structured summary provides a comprehensive overview of the documentation, maintaining clarity and organization for easy reference.
